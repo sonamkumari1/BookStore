@@ -10,7 +10,11 @@ const favourite=require("./routes/favourite.js")
 const cart=require("./routes/cart.js")
 const Order=require("./routes/order.js")
 
-app.use(cors());
+app.use(cors({
+    origin: ["https://deploy-mern-iwhq.vercel.app"],
+    method: ["POST","GET"],
+    Credential: true
+}));
 //routes
 app.use("/api",User);
 app.use("/api",Books);
