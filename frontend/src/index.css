@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bree Serif", serif;
+  transition: 0.2s ease-in-out;
+}
+
+.read-body span {
+  color: blueviolet;
+}
+
+.read-body,
+.read-head {
+  border: 1px solid blueviolet;
+  padding: 2em;
+  border-radius: 0.5em;
+  text-align: center;
+  cursor: pointer;
+}
+.read-head:hover {
+  box-shadow: 4px 4px 14px blueviolet, -4px -4px 14px blueviolet;
+}
+.read-head button:hover {
+  box-shadow: 4px 4px 14px blueviolet, -4px -4px 14px blueviolet;
+}
+.read-body:hover {
+  box-shadow: 4px 4px 14px blueviolet, -4px -4px 14px blueviolet;
+}
