@@ -3,24 +3,26 @@ This is a full-stack web application for a book store built using the MERN stack
 
 #Installation
 ---
-##1.Clone the repository to your local machine:
+1.##Clone the repository to your local machine:
+
 git clone https://github.com/yourusername/book-store.git
 
-##2.Install dependencies for both frontend and backend:
+2.##Install dependencies for both frontend and backend:
 
 cd ./frontend
 npm install
 npm run dev
 
 cd ./backend
+
 npm run server
 
-##3.Create a .env file in the root directory of the project:
+3.##Create a .env file in the root directory of the project:
 
 PORT=1000
 mongoDBURL=your_mongodb_url
 
-#4.Open your browser and navigate to
+4.##Open your browser and navigate to
  http://localhost:5173
 
 #Technologies Used
