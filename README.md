@@ -28,7 +28,7 @@ mongoDBURL=your_mongodb_url
 
 #Technologies Used
 
-MongoDB
-Express.js
-React.js
+MongoDB <br>
+Express.js <br>
+React.js <br>
 Node.js
