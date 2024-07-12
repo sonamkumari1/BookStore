@@ -11,17 +11,16 @@ git clone https://github.com/yourusername/book-store.git
 
 **2.Install dependencies for both frontend and backend:**
 
-##cd ./frontend <br>
+cd ./frontend <br>
 npm install<br>
 npm run dev
 
-##cd ./backend
-
+cd ./backend <br>
 npm run server
 
 **3.Create a .env file in the root directory of the project:**
 
-PORT=1000
+PORT=1000 <br>
 mongoDBURL=your_mongodb_url
 
 **4.Open your browser and navigate to**
